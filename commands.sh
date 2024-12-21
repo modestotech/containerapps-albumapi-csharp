@@ -22,4 +22,4 @@ IDENTITY_ID=$(az identity show --name $IDENTITY --resource-group $RESOURCE_GROUP
 
 docker build --tag $ACR_NAME.azurecr.io/$API_NAME ./src
 
-az group delete --name $RESOURCE_GROUP
+# az group delete --name $RESOURCE_GROUP
